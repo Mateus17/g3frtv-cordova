@@ -60,7 +60,7 @@ header {
   width: 100%;
   left: 0;
   position: fixed;
-  border-bottom: 2px solid #AFAFAF;
+  border-bottom: 1px solid #AFAFAF;
   top: 0;
   h1 {
     color: #692CF9;
@@ -149,7 +149,7 @@ form {
       margin-bottom: 1em;
     }
     &:last-child {
-      border: 2px solid #FFFFFF;
+      border: 1px solid #FFFFFF;
       border-radius: 10px;
       background: transparent;
       color: #ffffff;
@@ -158,20 +158,20 @@ form {
 }
 
 .form-personnalisation {
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 10px;
   input {
     background: transparent;
     &:first-child {
       width: 50%;
       float: left;
-      border-bottom: 2px solid #ffffff;
+      border-bottom: 1px solid #ffffff;
     }
     &:nth-child(2) {
       width: 50%;
       float: left;
-      border-left: 2px solid #ffffff;
-      border-bottom: 2px solid #ffffff;
+      border-left: 1px solid #ffffff;
+      border-bottom: 1px solid #ffffff;
     }
   }
 }
@@ -195,7 +195,7 @@ form {
 
 .btn-footer {
   color: #ffffff;
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 10px;
   padding: 12.5px 0;
   text-align: center;
@@ -216,7 +216,7 @@ form {
   height: 175px;
   text-align: center;
   display: table;
-  border: 2px dotted grey;
+  border: 1px dotted #9C9C9C;
   p {
     display: table-cell;
     text-align: center;
@@ -311,6 +311,15 @@ form {
   }
 }
 
+.index {
+  .main {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    padding-right: 25px;
+  }
+}
+
 .personnalisation-page {
   .main {
     position: absolute;
@@ -318,4 +327,59 @@ form {
     padding-right: 25px;
     transform: translateY(-50%);
   }
+}
+
+.logo-fb-position {
+  position: relative;
+  .fa {
+    position: absolute;
+    left: -20px;
+  }
+}
+
+.link-header {
+  position: fixed;
+  bottom: 7%;
+  a {
+    bottom: 17%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.25rem;
+    display: inline-block;
+    position: fixed;
+    left: 50%;
+    width: 40%;
+    transform: translateX(-50%);
+  }
+  &::before,
+  &::after {
+    width: 20%;
+    bottom: 18.5%;
+    content: '';
+    position: fixed;
+    height: 1px;
+    background: #ffffff;
+  }
+  &::before {
+    left: 25px;
+  }
+  &::after {
+    right: 25px;
+  }
+}
+
+.logo-frtv {
+  width: 80%;
+}
+
+video {
+  margin-top: 1.5em;
+  width: calc(100% + 50px);
+  margin-left: -25px;
+  position: relative;
+  left: 0;
+}
+
+.box-shadow-bottom {
+  box-shadow: 0px 10px 7px -10px rgba(0, 0, 0, 0.75);
 }
