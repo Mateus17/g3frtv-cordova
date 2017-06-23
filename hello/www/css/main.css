@@ -1,0 +1,303 @@
+@font-face {
+  font-family: 'BrownStd';
+  src: url("../fonts/BrownStd-LightItalic.eot");
+  src: url("../fonts/BrownStd-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-LightItalic.woff") format("woff"), url("../fonts/BrownStd-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: 'BrownStd';
+  src: url("../fonts/BrownStd-Bold.eot");
+  src: url("../fonts/BrownStd-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-Bold.woff") format("woff"), url("../fonts/BrownStd-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'BrownStd Alternate';
+  src: url("../fonts/BrownStd-BoldAlt.eot");
+  src: url("../fonts/BrownStd-BoldAlt.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-BoldAlt.woff") format("woff"), url("../fonts/BrownStd-BoldAlt.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'BrownStd';
+  src: url("../fonts/BrownStd-Light.eot");
+  src: url("../fonts/BrownStd-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-Light.woff") format("woff"), url("../fonts/BrownStd-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'BrownStd Alternate';
+  src: url("../fonts/BrownStd-RegularAlt.eot");
+  src: url("../fonts/BrownStd-RegularAlt.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-RegularAlt.woff") format("woff"), url("../fonts/BrownStd-RegularAlt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'BrownStd Reclining Alternate';
+  src: url("../fonts/BrownStd-ReclinRegularAlt.eot");
+  src: url("../fonts/BrownStd-ReclinRegularAlt.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-ReclinRegularAlt.woff") format("woff"), url("../fonts/BrownStd-ReclinRegularAlt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'BrownStd Light Reclining';
+  src: url("../fonts/BrownStd-ReclinLight.eot");
+  src: url("../fonts/BrownStd-ReclinLight.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-ReclinLight.woff") format("woff"), url("../fonts/BrownStd-ReclinLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: 'BrownStd';
+  src: url("../fonts/BrownStd-BoldItalic.eot");
+  src: url("../fonts/BrownStd-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-BoldItalic.woff") format("woff"), url("../fonts/BrownStd-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'BrownStd Reclining';
+  src: url("../fonts/BrownStd-ReclinRegular.eot");
+  src: url("../fonts/BrownStd-ReclinRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-ReclinRegular.woff") format("woff"), url("../fonts/BrownStd-ReclinRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'BrownStd';
+  src: url("../fonts/BrownStd-Regular.eot");
+  src: url("../fonts/BrownStd-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-Regular.woff") format("woff"), url("../fonts/BrownStd-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'BrownStd Reclining Alternate';
+  src: url("../fonts/BrownStd-ReclinBoldAlt.eot");
+  src: url("../fonts/BrownStd-ReclinBoldAlt.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-ReclinBoldAlt.woff") format("woff"), url("../fonts/BrownStd-ReclinBoldAlt.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'BrownStd';
+  src: url("../fonts/BrownStd-Italic.eot");
+  src: url("../fonts/BrownStd-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-Italic.woff") format("woff"), url("../fonts/BrownStd-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'BrownStd Alternate';
+  src: url("../fonts/BrownStd-ItalicAlt.eot");
+  src: url("../fonts/BrownStd-ItalicAlt.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-ItalicAlt.woff") format("woff"), url("../fonts/BrownStd-ItalicAlt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'BrownStd Alternate';
+  src: url("../fonts/BrownStd-BoldItalicAlt.eot");
+  src: url("../fonts/BrownStd-BoldItalicAlt.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-BoldItalicAlt.woff") format("woff"), url("../fonts/BrownStd-BoldItalicAlt.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'BrownStd Reclining';
+  src: url("../fonts/BrownStd-ReclinBold.eot");
+  src: url("../fonts/BrownStd-ReclinBold.eot?#iefix") format("embedded-opentype"), url("../fonts/BrownStd-ReclinBold.woff") format("woff"), url("../fonts/BrownStd-ReclinBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+* {
+  box-sizing: border-box; }
+
+html {
+  height: 100%;
+  font-size: 10px;
+  font-family: 'BrownStd';
+  font-weight: normal;
+  font-style: normal;
+  overflow: none; }
+
+body {
+  background-image: -webkit-linear-gradient(260deg, #9314E8 0%, #085BCC 100%);
+  background-image: linear-gradient(-170deg, #9314E8 0%, #085BCC 100%);
+  min-height: 100%;
+  margin: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  overflow: hidden; }
+  body.white-bg {
+    background: #ffffff; }
+
+.app {
+  height: 100%;
+  overflow: hidden; }
+
+h1 {
+  margin: 0;
+  padding: 1em 0; }
+
+h2 {
+  margin: 0;
+  padding: 1em 0;
+  font-size: 1.5rem; }
+  h2 a {
+    color: #242424;
+    font-size: 1rem; }
+
+a {
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
+
+img {
+  vertical-align: bottom;
+  width: 100%;
+  height: auto; }
+
+header {
+  background: #ffffff;
+  width: 100%;
+  left: 0;
+  position: fixed;
+  border-bottom: 2px solid #AFAFAF;
+  top: 0; }
+  header h1 {
+    color: #692CF9;
+    text-align: center;
+    padding: .5em 0; }
+  header + .row {
+    margin-top: 47px; }
+
+.text-center {
+  text-align: center; }
+
+.margin-regular {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+.inline-block {
+  display: inline-block; }
+
+.pull-right {
+  float: right; }
+
+.row {
+  clear: both; }
+
+form {
+  border: none; }
+  form input {
+    background: #FFFFFF;
+    border: none;
+    padding: 15px 18px;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    color: #CFCFCF;
+    font-size: 1.6rem; }
+    form input[type="submit"] {
+      cursor: pointer; }
+
+.form-log input:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid #9C9C9C; }
+.form-log input:nth-child(2) {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 1em; }
+.form-log input:last-child {
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  background: transparent;
+  color: #ffffff; }
+
+.form-personnalisation {
+  border: 2px solid #ffffff;
+  border-radius: 10px; }
+  .form-personnalisation input {
+    background: transparent; }
+    .form-personnalisation input:first-child {
+      width: 50%;
+      float: left;
+      border-bottom: 2px solid #ffffff; }
+    .form-personnalisation input:nth-child(2) {
+      width: 50%;
+      float: left;
+      border-left: 2px solid #ffffff;
+      border-bottom: 2px solid #ffffff; }
+
+.small-txt {
+  font-size: 1.25rem;
+  text-align: center;
+  color: #ffffff; }
+
+.subtitle {
+  width: 75%;
+  text-align: center;
+  left: 50%;
+  position: relative;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #ffffff;
+  font-size: 1.8rem;
+  line-height: 2rem; }
+
+.btn-footer {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 12.5px 0;
+  text-align: center;
+  position: fixed;
+  width: calc(100% - 50px);
+  left: 25px;
+  bottom: 5%;
+  display: block;
+  font-size: 1.6rem; }
+
+.btn-facebook {
+  background: #25469B; }
+
+.empty {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  display: table;
+  border: 2px dotted grey; }
+  .empty p {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; }
+
+.footer-main {
+  background: #F9F9F9;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  border-top: 1px solid #AFAFAF;
+  width: 100%; }
+  .footer-main ul {
+    margin: 0;
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0; }
+    .footer-main ul li {
+      opacity: .35;
+      float: left;
+      text-align: center;
+      width: 20%;
+      list-style: none;
+      -webkit-transition: opacity .2s;
+      transition: opacity .2s;
+      display: inline-block; }
+      .footer-main ul li.active, .footer-main ul li:hover {
+        opacity: 1; }
+      .footer-main ul li:nth-child(3) {
+        opacity: 1; }
+        .footer-main ul li:nth-child(3) a {
+          position: relative;
+          z-index: 1000000; }
+        .footer-main ul li:nth-child(3)::before {
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+                  transform: translateX(-50%);
+          top: -5px;
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+          position: absolute;
+          content: '';
+          height: 60px;
+          width: 60px;
+          background: white;
+          border-radius: 100%; }
+
+.nav-img {
+  width: 50px;
+  height: 50px; }
+
+/*# sourceMappingURL=main.css.map */

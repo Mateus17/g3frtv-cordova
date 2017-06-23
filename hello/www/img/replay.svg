@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>REPLAY</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="REPLAY">
+            <g id="noun_1033422_cc" transform="translate(17.000000, 18.000000)">
+                <g id="Group">
+                    <g stroke="#000000" id="Shape" stroke-width="2" stroke-linecap="round">
+                        <path d="M11.7241379,3.44827586 C4.9137931,8.01724138 0,16.2931034 0,25 C0,38.7931034 11.2068966,50 25,50 C38.7931034,50 50,38.7931034 50,25 C50,11.4655172 39.3103448,0.517241379 25.862069,0"></path>
+                        <polyline stroke-linejoin="round" points="11.7241379 13.4482759 11.7241379 3.44827586 1.72413793 3.44827586"></polyline>
+                    </g>
+                    <path d="M32.4137931,24.3103448 L22.1551724,16.5517241 C21.5517241,16.2068966 20.6896552,16.4655172 20.6896552,16.9827586 L20.6896552,32.9310345 C20.6896552,33.5344828 21.5517241,33.7931034 22.1551724,33.362069 L32.4137931,25.6034483 C32.8448276,25.3448276 32.8448276,24.6551724 32.4137931,24.3103448 Z" id="Shape" stroke="#FAFAFA" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

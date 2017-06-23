@@ -1,0 +1,257 @@
+@import 'fonts';
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 10px;
+  font-family: 'BrownStd';
+  font-weight: normal;
+  font-style: normal;
+  overflow: none;
+}
+
+body {
+  background-image: linear-gradient(-170deg, #9314E8 0%, #085BCC 100%);
+  min-height: 100%;
+  margin: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  overflow: hidden;
+  &.white-bg {
+    background: #ffffff;
+  }
+}
+
+.app {
+  height: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 0;
+  padding: 1em 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 1em 0;
+  font-size: 1.5rem;
+  a {
+    color: #242424;
+    font-size: 1rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+img {
+  vertical-align: bottom;
+  width: 100%;
+  height: auto;
+}
+
+header {
+  background: #ffffff;
+  width: 100%;
+  left: 0;
+  position: fixed;
+  border-bottom: 2px solid #AFAFAF;
+  top: 0;
+  h1 {
+    color: #692CF9;
+    text-align: center;
+    padding: .5em 0;
+  }
+  &+.row {
+    margin-top: 47px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-regular {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.pull-right {
+  float: right;
+}
+
+.row {
+  clear: both;
+}
+
+form {
+  border: none;
+  input {
+    background: #FFFFFF;
+    border: none;
+    padding: 15px 18px;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    color: #CFCFCF;
+    font-size: 1.6rem;
+    &[type="submit"] {
+      cursor: pointer;
+    }
+  }
+}
+
+.form-log {
+  input {
+    &:first-child {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom: 1px solid #9C9C9C;
+    }
+    &:nth-child(2) {
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin-bottom: 1em;
+    }
+    &:last-child {
+      border: 2px solid #FFFFFF;
+      border-radius: 10px;
+      background: transparent;
+      color: #ffffff;
+    }
+  }
+}
+
+.form-personnalisation {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  input {
+    background: transparent;
+    &:first-child {
+      width: 50%;
+      float: left;
+      border-bottom: 2px solid #ffffff;
+    }
+    &:nth-child(2) {
+      width: 50%;
+      float: left;
+      border-left: 2px solid #ffffff;
+      border-bottom: 2px solid #ffffff;
+    }
+  }
+}
+
+.small-txt {
+  font-size: 1.25rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subtitle {
+  width: 75%;
+  text-align: center;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  color: #ffffff;
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
+.btn-footer {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 12.5px 0;
+  text-align: center;
+  position: fixed;
+  width: calc(100% - 50px);
+  left: 25px;
+  bottom: 5%;
+  display: block;
+  font-size: 1.6rem;
+}
+
+.btn-facebook {
+  background: #25469B;
+}
+
+.empty {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  display: table;
+  border: 2px dotted grey;
+  p {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+.footer-main {
+  background: #F9F9F9;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  border-top: 1px solid #AFAFAF;
+  width: 100%;
+  ul {
+    margin: 0;
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    li {
+      &.active,
+      &:hover {
+        opacity: 1;
+      }
+      opacity: .35;
+      float: left;
+      text-align: center;
+      width: 20%;
+      list-style: none;
+      transition: opacity .2s;
+      display: inline-block;
+      &:nth-child(3) {
+        a {
+          position: relative;
+          z-index: 1000000;
+        }
+        opacity: 1;
+        &::before {
+          left: 50%;
+          transform: translateX(-50%);
+          top: -5px;
+          box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+          position: absolute;
+          content: '';
+          height: 60px;
+          width: 60px;
+          background: white;
+          border-radius: 100%;
+        }
+      }
+    }
+  }
+}
+
+.nav-img {
+  width: 50px;
+  height: 50px;
+}
