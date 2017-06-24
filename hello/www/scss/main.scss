@@ -1,4 +1,5 @@
 @import 'fonts';
+@import 'checkbox';
 * {
   box-sizing: border-box;
 }
@@ -382,4 +383,25 @@ video {
 
 .box-shadow-bottom {
   box-shadow: 0px 10px 7px -10px rgba(0, 0, 0, 0.75);
+}
+
+.profil {
+  .profil-input {
+    border: 1px solid #D1D1D1;
+    border-radius: 3px;
+    color: #242424;
+    font-size: 1.2rem;height: 30px;
+    padding: 7px 15px;
+    margin-bottom: .5em;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  .btn-footer {
+    position: relative;
+    border: 1px solid #D1D1D1;
+    color: #424242;
+    width: 100%;
+    left: 0;
+  }
 }
