@@ -48,10 +48,10 @@
 
     <div class="row last float">
       <h2>Mes informations</h2>
-      <form action="">
-        <input class="profil-input" type="text" value="Marie" placeholder="Mon prénom">
-        <input class="profil-input" type="text" value="Almeida" placeholder="Mon nom">
-        <input class="profil-input" type="text" value="22 ans" placeholder="Mon âge">
+      <form action="" class="form-profil">
+        <input class="profil-input" id="firstName" type="text" placeholder="Mon prénom">
+        <input class="profil-input" id="lastName" type="text" placeholder="Mon nom">
+        <input class="profil-input" type="text" value="20 ans pour toujours" placeholder="Mon âge" disabled>
         <h2>Notifications</h2>
         <div class="checkbox">
           <p>Notifications des points.</p>
@@ -70,14 +70,14 @@
         </div>
         <h2>Mes préférences de contenu</h2>
         <div>
-          <input class="btn-footer" type="submit" value="Modifier">
+          <input class="btn-footer submit-form submit-profil-form" type="button" value="Modifier">
         </div>
       </form>
     </div>
 
     <div class="footer-main">
       <ul>
-        <li class="active">
+        <li>
           <a href="home.html"><img class="nav-img" src="img/house.svg" alt=""></a>
         </li>
         <li>
@@ -89,7 +89,7 @@
         <li>
           <a href="grilletv.html"><img class="nav-img" src="img/grid.svg" alt=""></a>
         </li>
-        <li>
+        <li class="active">
           <a href="profil.html"><img class="nav-img" src="img/profil.svg" alt=""></a>
         </li>
       </ul>
@@ -101,8 +101,10 @@
             </div>-->
   </div>
 
+  <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
   <script type="text/javascript" src="cordova.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/profil.js"></script>
 </body>
 
 </html>

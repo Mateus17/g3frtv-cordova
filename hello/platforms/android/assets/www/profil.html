@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+  <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <title>Mon Profil.</title>
+</head>
+
+<body class="white-bg profil">
+  <div class="app">
+    <header>
+      <h1>Mon Profil.</h1>
+      <a href="#"><span class="search"></span></a>
+    </header>
+
+    <div class="row last float">
+      <h2>Mes informations</h2>
+      <form action="">
+        <input class="profil-input" type="text" value="Marie" placeholder="Mon prénom">
+        <input class="profil-input" type="text" value="Almeida" placeholder="Mon nom">
+        <input class="profil-input" type="text" value="22 ans" placeholder="Mon âge">
+        <h2>Notifications</h2>
+        <div class="checkbox">
+          <p>Notifications des points.</p>
+          <input type="checkbox" id="check_01">
+          <label for="check_01"></label>
+        </div>
+        <div class="checkbox">
+          <p>Notifications du direct</p>
+          <input type="checkbox" id="check_02">
+          <label for="check_02"></label>
+        </div>
+        <div class="checkbox">
+          <p>Notifications générales</p>
+          <input type="checkbox" id="check_03">
+          <label for="check_03"></label>
+        </div>
+        <h2>Mes préférences de contenu</h2>
+        <div>
+          <input class="btn-footer" type="submit" value="Modifier">
+        </div>
+      </form>
+    </div>
+
+    <div class="footer-main">
+      <ul>
+        <li class="active">
+          <a href="home.html"><img class="nav-img" src="img/house.svg" alt=""></a>
+        </li>
+        <li>
+          <a href="replay.html"><img class="nav-img" src="img/replay.svg" alt=""></a>
+        </li>
+        <li>
+          <a href="direct.html"><img class="nav-img" src="img/play.svg" alt=""></a>
+        </li>
+        <li>
+          <a href="grilletv.html"><img class="nav-img" src="img/grid.svg" alt=""></a>
+        </li>
+        <li>
+          <a href="profil.html"><img class="nav-img" src="img/profil.svg" alt=""></a>
+        </li>
+      </ul>
+    </div>
+    <!--<h1>Apache Cordova</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>-->
+  </div>
+
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
