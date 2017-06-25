@@ -18,7 +18,8 @@
     under the License.
 -->
 <html>
-    <head>
+
+<head>
   <!--
         Customize this policy to fit your own app's needs. For more guidance, see:
             https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
@@ -43,14 +44,14 @@
     <div class="main">
       <p class="subtitle">Laissez-nous en apprendre un peu plus sur vous</p>
       <form action="personnalisation.html" class="form-personnalisation">
-        <input type="text" placeholder="Votre prénom">
-        <input type="text" placeholder="Votre nom">
+        <input type="text" id="firstName" placeholder="Votre prénom">
+        <input type="text" id="lastName" placeholder="Votre nom">
         <input type="date" placeholder="dd/mm/yyyy">
       </form>
     </div>
 
     <div class="footer">
-      <a href="bubble-screen.html" class="btn-footer">Suivant</a>
+      <a href="#" class="btn-footer submit-profil-form">Suivant</a>
     </div>
     <!--<h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
@@ -58,8 +59,10 @@
                 <p class="event received">Device is Ready</p>
             </div>-->
   </div>
-
+  <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
   <script type="text/javascript" src="cordova.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/profil.js"></script>
 </body>
+
 </html>

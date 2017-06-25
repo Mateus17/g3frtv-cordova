@@ -693,3 +693,72 @@ form {
 .hidden {
   display: none !important;
 }
+
+input:disabled {
+  background: #dddddd;
+}
+
+.discover-bg {
+  background-image: linear-gradient(-126deg, #865CF9 12%, #4E2FF0 100%);
+  img {
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 10%;
+    margin-top: 10%;
+  }
+  .footer-decouvrir {
+    height: 45%;
+    width: 100%;
+    left: 0;
+    color: #ffffff;
+    position: fixed;
+    background-image: linear-gradient(-178deg, #3839EB 0%, #711EF7 100%);
+    text-align: center;
+    bottom: -45%;
+    animation-name: anim-bottom;
+    animation-duration: .5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    h2 {
+      padding-bottom: 0;
+      font-family: 'BrownStd Alternate';;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 3rem;
+    }
+    h3 {
+      font-family: 'BrownStd';;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 1.6rem;
+    }
+    .btn-footer {
+      bottom: -40%;
+      animation-name: anim-bottom-2;
+      animation-duration: .5s;
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-delay: 1s;
+    }
+  }
+}
+
+@keyframes anim-bottom {
+  0% {
+    bottom: -45%;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+@keyframes anim-bottom-2 {
+  0% {
+    bottom: -40%;
+  }
+  100% {
+    bottom: 5%;
+  }
+}
