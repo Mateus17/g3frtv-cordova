@@ -217,7 +217,7 @@
   setTimeout(function () {
     var duration = myPlayer.duration;
     var minutesDuration = Math.floor(duration / 60);
-    var secondsDuration = Math.floor(duration);
+    var secondsDuration = Math.floor(duration - (60 * minutesDuration));
     var xDuration = minutesDuration < 10 ? "0" + minutesDuration : minutesDuration;
     var yDuration = secondsDuration < 10 ? "0" + secondsDuration : secondsDuration;
 
@@ -227,7 +227,7 @@
   setInterval(function () {
     var whereYouAt = myPlayer.currentTime;
     var minutes = Math.floor(whereYouAt / 60);
-    var seconds = Math.floor(whereYouAt);
+    var seconds = Math.floor(whereYouAt - (60 * minutes));
     var x = minutes < 10 ? "0" + minutes : minutes;
     var y = seconds < 10 ? "0" + seconds : seconds;
 
