@@ -214,7 +214,7 @@ header {
     text-align: center;
     padding: .5em 0; }
   header + .row {
-    margin-top: 47px; }
+    padding-top: 47px; }
 
 .text-center {
   text-align: center; }
@@ -237,18 +237,20 @@ header {
 .float {
   float: left; }
 
-.booked a {
-  margin-bottom: 1em;
-  display: block;
-  width: 50%;
-  float: left;
-  padding: 0; }
-  .booked a:first-of-type {
-    width: 100%; }
-  .booked a:nth-child(2n+2) {
-    padding-right: 5px; }
-  .booked a:nth-child(2n+3) {
-    padding-left: 5px; }
+.booked {
+  display: none; }
+  .booked a {
+    margin-bottom: 1em;
+    display: block;
+    width: 50%;
+    float: left;
+    padding: 0; }
+    .booked a:first-of-type {
+      width: 100%; }
+    .booked a:nth-child(2n+2) {
+      padding-right: 5px; }
+    .booked a:nth-child(2n+3) {
+      padding-left: 5px; }
 
 form {
   border: none; }
@@ -353,7 +355,7 @@ form {
     width: 100%;
     padding: 0; }
     .footer-main ul li {
-      opacity: .35;
+      position: relative;
       float: left;
       text-align: center;
       width: 20%;
@@ -361,7 +363,9 @@ form {
       -webkit-transition: opacity .2s;
               transition: opacity .2s;
       display: inline-block; }
-      .footer-main ul li.active, .footer-main ul li:hover {
+      .footer-main ul li a {
+        opacity: .35; }
+      .footer-main ul li.active a, .footer-main ul li:hover a {
         opacity: 1; }
       .footer-main ul li:nth-child(3) {
         opacity: 1; }
@@ -997,5 +1001,30 @@ input:disabled {
   overflow: auto; }
   .reset-before-element::before {
     display: none !important; }
+
+.width-100 {
+  width: 100%; }
+
+.tab-badge {
+  text-align: center;
+  display: none;
+  min-width: 10px;
+  font-weight: bold;
+  white-space: nowrap;
+  vertical-align: baseline;
+  color: #fff;
+  background-color: #488aff;
+  top: 6%;
+  position: absolute;
+  height: auto;
+  font-size: 12px;
+  line-height: 16px;
+  background-image: -webkit-linear-gradient(217deg, #2F4CFD 0%, #8E18F7 100%);
+  background-image: linear-gradient(-127deg, #2F4CFD 0%, #8E18F7 100%);
+  border-radius: 100%;
+  left: calc(50% - 30px);
+  right: auto;
+  padding: 4px 9px;
+  cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
