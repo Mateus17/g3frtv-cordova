@@ -49,10 +49,10 @@
     <div class="row">
       <ul class="nav-channel">
         <li><a href="#">France 2</a></li>
-        <li><a href="#">France 3</a></li>
-        <li><a href="#">France 4</a></li>
-        <li><a href="#">France 5</a></li>
-        <li><a href="#">France Ô</a></li>
+        <li class="disabled-item"><a href="#">France 3</a></li>
+        <li class="disabled-item"><a href="#">France 4</a></li>
+        <li class="disabled-item"><a href="#">France 5</a></li>
+        <li class="disabled-item"><a href="#">France Ô</a></li>
       </ul>
     </div>
 
@@ -60,19 +60,19 @@
       <div class="video-container">
         <figure id="videoContainer" data-fullscreen="false">
           <video id="video" controls preload="metadata" poster="img/poster-video-direct.png">
-            <source src="http://www.nicolas-hoffmann.net/animations/Cavernae_Terragen2.mp4" type="video/mp4" />
+            <source src="video/jt-all.mp4" type="video/mp4" />
           </video>
           <div class="video-played-picto"><img src="img/play-white.svg" alt=""></div>
-          <div class="pin"></div>
+          <div class="pin hidden"></div>
           <div id="video-controls" class="controls" data-state="hidden">
             <button id="playpause" type="button" data-state="play">Play/Pause</button>
             <button id="stop" type="button" data-state="stop" class="hidden">Stop</button>
-            <div class="progress">
+            <div class="progress width-100">
               <div id="current_time"></div>
               <progress id="progress" value="0" min="0">
                 <span id="progress-bar"></span>
               </progress>
-              <div id="duration_time"></div>
+              <div class="hidden" id="duration_time"></div>
             </div>
             <button id="mute" type="button" data-state="mute" class="hidden">Mute/Unmute</button>
             <button id="volinc" type="button" data-state="volup" class="hidden">Vol+</button>

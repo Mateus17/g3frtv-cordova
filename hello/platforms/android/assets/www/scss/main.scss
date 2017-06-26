@@ -985,7 +985,7 @@ input:disabled {
 }
 
 .width-100 {
-  width: 100%;
+  width: 100% !important;
 }
 
 .tab-badge {
@@ -1008,4 +1008,15 @@ input:disabled {
   right: auto;
   padding: 4px 9px;
   cursor: pointer;
+}
+
+.nav-channel {
+  .disabled-item {
+    a {
+      color: #dddddd;
+    }
+    &::after {
+      display: none;
+    }
+  }
 }
